@@ -23,8 +23,8 @@ Let's use fastai as the example.
 Only WSL2 supports GPU and only Geforce Cards are supported.
 
 ## Refs
-https://github.com/pytorch/pytorch/issues/51344
-https://github.com/mszhanyi/pymultiprocessdemo
+https://github.com/pytorch/pytorch/issues/51344<br>
+https://github.com/mszhanyi/pymultiprocessdemo<br>
 https://github.com/microsoft/WSL/issues/5546
 
 
