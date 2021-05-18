@@ -14,12 +14,12 @@ param(
 $ErrorActionPreference = "Stop"
 
 if ($help) {
-    write-host "gemini -n {virtual name} -d {addtional commands file}"
+    write-host "gemini -name {virtual env name} -dependps {addtional commands file}"
     exit
 }
 
 if (!($name)) {
-    write-host "Please specify virtual environment name, -n {name}"
+    write-host "Please specify virtual environment name, -name {name}"
 }
 
 # install mini conda, jupyter and create virtual environment
